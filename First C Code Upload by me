@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+printf("The Universe is a Terrifying Beauty");
+return 0;
+}
