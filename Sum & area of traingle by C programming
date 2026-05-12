@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int num1; int num2;
+    printf("Enter the num1 and num2:");
+    scanf("%d%d", &num1,&num2);
+
+    int sum;
+    sum = num1 + num2;
+
+    //Area = 0.5*num1*num2
+    float Area;
+    Area = 0.5*num1*num2;
+
+    printf("The sum is: %d\n", sum);
+
+    printf("The Area of triangle: %f", Area);
+
+    return 0;
+}
